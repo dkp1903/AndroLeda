@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
     head
-        title Page title
+        title Androleda
         meta(charset="utf-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
         meta(name="description" content="")
@@ -32,23 +32,22 @@ html(lang="en")
                             svg(class="w-4 h-4 current-fill", xmlns="http://www.w3.org/2000/svg", fill="none", viewbox="0 0 24 24", stroke="currentColor")
                                 path(stroke-linecap="round", stroke-linejoin="round", stroke-width="2", d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z")
                         li
-                            a(href="#", class="text-sm text-white font-bold") Idea
+                            a(href="#process", class="text-sm text-white font-bold") The Process
                         li(class="text-gray-800")
                             svg(class="w-4 h-4 current-fill", xmlns="http://www.w3.org/2000/svg", fill="none", viewbox="0 0 24 24", stroke="currentColor")
                                 path(stroke-linecap="round", stroke-linejoin="round", stroke-width="2", d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z")
                         li
-                            a(href="#", class="text-sm text-gray-300 hover:text-white") Pathway
+                            a(href="#programs", class="text-sm text-gray-300 hover:text-white") Programs
                         li(class="text-gray-800")
                             svg(class="w-4 h-4 current-fill", xmlns="http://www.w3.org/2000/svg", fill="none", viewbox="0 0 24 24", stroke="currentColor")
                                 path(stroke-linecap="round", stroke-linejoin="round", stroke-width="2", d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z")
                         li
-                            a(href="#", class="text-sm text-gray-300 hover:text-white") Platform
+                            a(href="#signup", class="text-sm text-gray-300 hover:text-white") Sign up
                         li(class="text-gray-800")
                             svg(class="w-4 h-4 current-fill", xmlns="http://www.w3.org/2000/svg", fill="none", viewbox="0 0 24 24", stroke="currentColor")
                                 path(stroke-linecap="round", stroke-linejoin="round", stroke-width="2", d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z")
-                        li
-                            a(href="#", class="text-sm text-gray-300 hover:text-white") Early access
-                    a(href="#" class="hidden lg:inline-block py-2 px-6 bg-pink-500 hover:bg-pink-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200") Sign up
+                       
+                    a(href="#signup" class="hidden lg:inline-block py-2 px-6 bg-pink-500 hover:bg-pink-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200") Sign up
                 div(class="bg-gray-900 pt-12 lg:pt-20 pb-20 radius-for-skewed")
                     div(class="container mx-auto px-4")
                         div(class="flex flex-wrap -mx-4")
@@ -91,13 +90,12 @@ html(lang="en")
                                 li(class="mb-1")
                                     a(href="#process", class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded") The Process
                                 li(class="mb-1")
-                                    a(href="#", class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded") Programs
+                                    a(href="#programs", class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded") Programs
                                 li(class="mb-1")
-                                    a(href="#", class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded") Sign up
+                                    a(href="#signup", class="block p-4 text-sm font-semibold text-gray-400 hover:bg-purple-50 hover:text-purple-600 rounded") Sign up
                                 
                         div(class="mt-auto")
                             div(class="pt-6")
-                                a(href="#", class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl") Sign In
                                 a(href="#", class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-pink-600 hover:bg-pink-700 rounded-l-xl rounded-t-xl") Sign Up
 
                             p(class="my-4 text-xs text-center text-gray-400")
@@ -159,7 +157,7 @@ html(lang="en")
                 div(class="skew skew-top ml-for-radius")
                     <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewBox="0 0 10 10" preserveAspectRatio="none"><polygon fill="currentColor" points="0 10 10 0 10 10" /></svg>
 
-                div(class="py-20 bg-gray-900 radius-for-skewed")
+                div(id="programs" class="py-20 bg-gray-900 radius-for-skewed")
                     div(class="container px-4 mx-auto")
                         div(class="mb-16 max-w-2xl mx-auto text-center")
                             div(class="max-w-lg mx-auto")
@@ -212,7 +210,7 @@ html(lang="en")
                             div(class="mb-6 lg:mb-20 w-full px-3 flex items-center justify-between")
                                 a(href="#", class="text-white text-3xl font-bold leading-none") Androleda
                                 a(class="py-2 px-6 text-xs rounded-l-xl rounded-t-xl bg-purple-600 hover:bg-purple-700 text-white font-bold transition duration-200", href="#") Check updates
-                            div
+                            div(id="signup")
                                 div(class="mb-6 px-3")
                                     span(class="text-gray-500") Sign Up
                                     h3(class="text-2xl font-bold text-white") To receive updates on launch
