@@ -39,3 +39,8 @@
 .skewed-bottom-left .radius-for-skewed {
     border-bottom-left-radius: 6rem;
 }
+
+.h-logo {
+    height: 10rem;
+    width: 10rem;
+}
