@@ -40317,7 +40317,8 @@ video {
   }
 
   .sm\:h-12 {
-    height: 3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .sm\:h-14 {
@@ -68953,7 +68954,8 @@ video {
   }
 
   .md\:h-12 {
-    height: 3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .md\:h-14 {
@@ -97589,7 +97591,8 @@ video {
   }
 
   .lg\:h-12 {
-    height: 3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .lg\:h-14 {
@@ -126225,7 +126228,8 @@ video {
   }
 
   .xl\:h-12 {
-    height: 3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .xl\:h-14 {
